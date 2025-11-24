@@ -11,10 +11,6 @@ function App() {
         <NavBar />
         <ItemListContainer saludo="¡Bienvenido a la tienda!" />
       </div>
-
-      <div>
-        <CartWidget />
-      </div>
     </>
   );
 }

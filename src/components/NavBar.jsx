@@ -1,3 +1,5 @@
+import CartWidget from "./cartWidget";
+
 function NavBar() {
   return (
     <>
@@ -19,6 +21,8 @@ function NavBar() {
             <a href="https://www.google.com/">Contacto</a>
           </ul>
         </ul>
+
+        <CartWidget />
       </nav>
     </>
   );

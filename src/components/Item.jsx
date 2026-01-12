@@ -1,13 +1,13 @@
 import { Link } from "react-router";
 
-function Item({ name, image, price, itemid }) {
+function Item({ name, image, price, itemid, stock }) {
   return (
     <div>
       <h2>{name}</h2>
-      <img src={img} alt={name} />
-      <h4>$ {price}</h4>
+      <img src={image} alt={name} />
+      <h3>$ {price}</h3>
 
-      <Link to={`/>product/${itemid}`}>
+      <Link to={`/product/${itemid}`}>
         <button>Ver producto</button>
       </Link>
     </div>
